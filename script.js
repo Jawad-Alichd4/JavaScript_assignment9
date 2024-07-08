@@ -34,6 +34,16 @@ for (var i = 0; i < arr2.length; i++)
                 greater = arr2[i];
             }
     }
+// program 4
+var number = +prompt("enter a number to find its factorial");
+var fact = 1;
+for (var i = number; i >= 1; i--)
+    {
+        fact = fact * i;
+    }
+console.log(fact);
+document.write(fact);
+
 console.log("the greater number in array is " + greater);
 // // program 4
 
